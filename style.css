@@ -1,0 +1,27 @@
+.parentDiv {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+  }
+  
+  table {
+    margin-top: 5px;
+    display: inline-block;
+    border-collapse: collapse;
+  }
+  th, td{
+    padding:9px;
+    border:1px solid black;
+    text-align: center;
+
+  }
+  #semister-1,  #semister-2,  #semister-3,  #semister-4,  #semister-5,  #semister-6,  #semister-7, #semister-8,  #semister-9,  #semister-10,  #semister-11,  #semister-12{
+    display: none;
+  }
+  .btn
+  {
+    margin:3px;
+    width:500px;}
